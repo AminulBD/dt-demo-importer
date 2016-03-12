@@ -5,7 +5,7 @@ A One Click Demo Installer Class for WordPress Themes. This class developed for 
 # Quick Usage
 
 **Place this code in functions.php**
-````
+````php
 /**
  * Initialize DT Importer
  */
@@ -52,7 +52,7 @@ DT_Demo_Importer::instance( $settings, $options );
 ````
 
 **Create Folder by id in ````dt_importer/demos/```` by same id**
-````
+````php
 demos
   - demo-1
     - content.xml // WP Exported Data
